@@ -6,7 +6,7 @@
 /*   By: Math <Math@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/09 00:07:48 by mlebrun           #+#    #+#             */
-/*   Updated: 2020/10/19 14:45:05 by Math             ###   ########.fr       */
+/*   Updated: 2020/10/19 15:26:00 by mlebrun          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 int		main(void)
 {  
-	/*int		a;
+	int		a;
 	
 	a = 3;	
 	printf("LETk'S TEST THAT LITTLE BABY\n");
@@ -83,8 +83,5 @@ int		main(void)
 	printf("EXPECTED      : %0.16X \n", 159784);
 	fflush(stdout);
 	ft_printf("YOUR FUNCTION : %0.16X \n", 159784);
-	*/
-	//ft_printf("%23%");
-	ft_printf("%12%");
 	return (0);
 }

@@ -6,7 +6,7 @@
 #    By: mlebrun <mlebrun@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/10/17 19:40:00 by mlebrun           #+#    #+#              #
-#    Updated: 2020/10/18 13:55:16 by mlebrun          ###   ########.fr        #
+#    Updated: 2020/10/19 15:22:28 by mlebrun          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,7 @@ $(NAME):	${OBJS}
 			make -C libft/
 			mv libft/libft.a libftprintf.a
 			ar rc ${NAME} ${OBJS}
-#			ranlib ${NAME}
+			ranlib ${NAME}
 
 clean:
 			make -C libft/ -f Makefile clean

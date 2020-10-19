@@ -6,27 +6,13 @@
 /*   By: Math <Math@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/09 11:30:34 by mlebrun           #+#    #+#             */
-/*   Updated: 2020/10/19 14:57:24 by Math             ###   ########.fr       */
+/*   Updated: 2020/10/19 15:23:10 by mlebrun          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 #include "libft.h"
-/*
-void	ft_display_percent(t_format * foramt_parsed)
-{
-	if (format_parsed->minus_flag == 1)
-	{
-		ft_putchar('%', format_parsed);
-		i = 0;
-		while (i < format_parsed->width - 1)
-		{
-			ft_putchar(' ', format_parsed);
-			i++;
-		}
-	}
-}
-*/
+
 void 	ft_display_null(t_format *format_parsed)
 {
 	char	null[7];
